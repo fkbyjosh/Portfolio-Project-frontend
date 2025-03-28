@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
+import LandingPage from './components/LandingPage';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Sidebar />
         <div className="content flex-grow-1">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/" element={<LandingPage />} />
             {/* Add more routes as needed */}
           </Routes>
         </div>

@@ -1,0 +1,173 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f5ff; /* Light purple background */
+}
+
+/* Header and Navigation */
+header {
+    background: #4B0082; /* Deep purple */
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #E6E6FA; /* Lavender */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #D8BFD8; /* Thistle */
+}
+
+/* Intro Section */
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #8A2BE2, #DDA0DD); /* BlueViolet to Plum */
+    margin-top: 60px;
+    color: white;
+}
+
+.cover-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border: 3px solid #E6E6FA; /* Lavender border */
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #F8F1FF; /* Very light purple */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #6A0DAD; /* Royal purple */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #9B30FF; /* Brighter purple */
+}
+
+/* Features Section */
+.features {
+    padding: 4rem 2rem;
+    background: white;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4B0082; /* Deep purple */
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #DDA0DD; /* Plum border */
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+    color: #6A0DAD; /* Royal purple */
+}
+
+.feature p {
+    color: #555;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 2rem;
+    background: #E6E6FA; /* Lavender */
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #4B0082; /* Deep purple */
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    color: #333;
+}
+
+.team {
+    margin: 2rem 0;
+}
+
+.team-member {
+    margin-bottom: 1rem;
+}
+
+.team-member a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #6A0DAD; /* Royal purple */
+}
+
+.team-member a:hover {
+    color: #9B30FF; /* Brighter purple */
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #4B0082; /* Deep purple */
+    color: #E6E6FA; /* Lavender */
+}
